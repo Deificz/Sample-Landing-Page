@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1F2937;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*HEADER SECTION*/
+#header-section{
+    color: #F9FAF8;
+    font-size: 24px;
+    
+}
+
+/*TOP HEADER*/
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px ;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #e5E7EB;
+    margin-right:20px;
+    font-size: 18px;
+}
+
+/*BOTTOM HEADER*/
+
+.bottom{
+    display:flex;
+    margin: 60px 0px 150px;
+    padding: 0px 200px;
+}
+
+.container-left{
+   position: relative;
+   
+   padding: 0px 100px 0px 0px;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.bottom p{
+    position: relative;
+    font-size: 18px;
+    color: #e5E7EB;
+    margin-top: -30px;
+}
+
+.header-signup{
+    background-color: #3882F6;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-style: none;
+    cursor: pointer;
+}
+
+.container-right{
+    display:flex;
+}
+
+img{
+    height: 250px;
+    margin-top: 30px;
+    width: auto;
+    border-radius: 30px;
+}
+
+
+/*INFO SECTION*/
+
+#info-section{
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info-title h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.info-cards{
+    display: flex;
+    padding: 0px 300px 100px;
+   
+}
+.shape{
+    height: 140px;
+    width: 130px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10%;
+    border-color: #3882F6;
+    margin: 0px 25px;
+
+}
+
+.info-cards p{
+    text-align: center;
+}
+
+/*QUOTE SECTION*/
+#quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.quote{
+    padding: 100px 400px;
+}
+
+h3{
+    
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 30px;
+    color:#474747;
+}
+
+.quote p{
+    text-align: right;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/*AD SECTION*/
+#ad-section{
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-contents{
+    height: 150px;
+    padding: 5px 0px 5px 150px;
+    width: 1000px;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: rgb(59,130,246);
+}
+
+h4{
+    color: white;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.ad-contents p{
+    margin-top: -40px;
+    color: rgb(235, 234, 234);
+    font-size: 19px;
+    
+}
+
+.right-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.ad-signup{
+    margin-left: 50px;
+    font-size: 20px;                                            
+    font-weight: bolder;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(59,130,246);
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+
+/*FOOTER SECTION*/
+
+#footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.footer-desc p{
+    color: white;
+    font-size: 20px;
+}
